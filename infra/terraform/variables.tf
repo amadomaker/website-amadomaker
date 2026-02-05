@@ -8,6 +8,10 @@ variable "region" {
   type        = string
   default     = "us-central1"
 }
+variable "environment" {
+  description = "Environment name"
+  type        = string
+}
 
 # CLOUD RUN
 variable "docker_image_url" {
