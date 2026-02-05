@@ -5,6 +5,10 @@ terraform {
       version = "7.18.0"
     }
   }
+  backend "gcs" {
+    bucket      = "placeholder"
+    prefix      = "placeholder"
+  }
 }
 
 provider "google" {
