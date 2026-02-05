@@ -12,7 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v6
       - name: GCP Authentication
         uses: google-github-actions/auth@v2
         with:
@@ -52,7 +53,7 @@ jobs:
             -backend-config="bucket=${{ secrets.TF_STATE_BUCKET }}" \
             -backend-config="prefix=state/website-amadomaker/${{ github.ref_name }}"
       - name: Terraform Format
-        working-directory: infra/terraform
+        working-directory: ./infra/terraform
         run: |
           terraform fmt -check
       - name: Set Environment Variable
@@ -67,7 +68,7 @@ jobs:
             exit 1
           fi
       - name: Terraform Plan
-        working-directory: infra/terraform
+        working-directory: ./infra/terraform
         run: |
           terraform plan -out=plan.out \
               -var="project_id=${{ secrets.GCP_PROJECT }}" \
