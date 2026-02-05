@@ -14,7 +14,7 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
       - name: Docker Build and Push
-        uses: google-github-actions/build-push-docker@v0
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
@@ -29,9 +29,10 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
       - name: Deploy to Cloud Run
-        uses: google-github-actions/deploy-cloudrun@v0
+        id: deploy-cloudrun
+        uses: google-github-actions/deploy-cloudrun@v3
         with:
           service: website-amadomaker
           image: us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/website-amadomaker/image-website:${{ github.sha }}
-          region: us-central1
-          project_id: ${{ secrets.GCP_PROJECT }}
+      - name: Use Output URL
+        run: echo "Deployed to ${{ steps.deploy-cloudrun.outputs.url }}"
