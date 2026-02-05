@@ -46,7 +46,7 @@ jobs:
             -backend-config="bucket=${{ secrets.TF_STATE_BUCKET }}" \
             -backend-config="prefix=state/website-amadomaker/${{ github.ref_name }}"
       - name: Terraform Format
-        working-directory: ./infra/terraform
+        working-directory: infra/terraform
         run: |
           terraform fmt -check
       - name: Set Environment Variable
@@ -61,7 +61,7 @@ jobs:
             exit 1
           fi
       - name: Terraform Plan
-        working-directory: ./infra/terraform
+        working-directory: infra/terraform
         run: |
           terraform plan -out=plan.out \
               -var="project_id=${{ secrets.GCP_PROJECT }}" \
@@ -69,6 +69,6 @@ jobs:
               -var="region=$REGION" \
               -var="docker_image_url=$REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/website-amadomaker/image-website:${{ github.sha }}"
       - name: Terraform Apply
-        working-directory: ./infra/terraform
+        working-directory: infra/terraform
         run: |
           terraform apply -auto-approve plan.out
