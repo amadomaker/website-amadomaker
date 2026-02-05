@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket      = "placeholder"
-    prefix      = "placeholder"
+    bucket = "placeholder"
+    prefix = "placeholder"
   }
 }
 
