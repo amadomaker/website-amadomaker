@@ -13,6 +13,17 @@ jobs:
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
+      - name: Debug Artifact Registry permissions
+        run: |
+          SA_EMAIL=$(gcloud auth list --filter=status:ACTIVE --format="value(account)")
+          PROJECT_ID=${{ secrets.GCP_PROJECT }}
+
+          echo "Service Account: $SA_EMAIL"
+
+          gcloud projects get-iam-policy $PROJECT_ID \
+            --flatten="bindings[].members" \
+            --filter="bindings.members:$SA_EMAIL" \
+            --format="table(bindings.role)"
       - name: Docker Build and Push
         uses: docker/build-push-action@v6
         with:
