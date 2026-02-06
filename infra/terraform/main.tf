@@ -1,6 +1,6 @@
 # Cloud Run Service
 resource "google_cloud_run_v2_service" "website_service" {
-  name                = "website-amadomaker-service"
+  name                = "website-amadomaker-${var.environment}"
   location            = var.region
   deletion_protection = false
   ingress             = "INGRESS_TRAFFIC_ALL"
@@ -23,7 +23,7 @@ resource "google_cloud_run_v2_service" "website_service" {
   }
 }
 
-# IAM Policy para acesso público
+# IAM Policy to allow public access
 resource "google_cloud_run_v2_service_iam_member" "public_access" {
   name     = google_cloud_run_v2_service.website_service.name
   location = google_cloud_run_v2_service.website_service.location
