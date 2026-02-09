@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://amadomaker.com.br/sitemap_index.xml
+Sitemap: ./sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK

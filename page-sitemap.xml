@@ -1,156 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://amadomaker.com.br/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://amadomaker.com.br/</loc>
+		<loc>./</loc>
 		<lastmod>2025-12-16T19:28:41+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/logosite-1024x585.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/logosite-1024x585.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Mapa-do-Brasil-1021x1024.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Mapa-do-Brasil-1021x1024.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/icon-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/icon-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Icon-2.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Icon-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/icon-3.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/icon-3.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/icon-4.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/icon-4.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_1.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_1.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_2.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_2.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_3.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_3.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_4.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_4.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_5.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_5.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_6.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_6.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/06/frame_7.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/06/frame_7.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/loja/</loc>
+		<loc>./loja/</loc>
 		<lastmod>2025-06-20T21:22:17+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/ambientes-de-aprendizagem/</loc>
+		<loc>./ambientes-de-aprendizagem/</loc>
 		<lastmod>2025-08-29T14:07:46+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-7@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-7@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-8@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-8@200x.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/formacao-de-professores/</loc>
+		<loc>./formacao-de-professores/</loc>
 		<lastmod>2025-08-29T14:09:11+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-1@200x-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-1@200x-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-2@200x-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-2@200x-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-3@200x-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-3@200x-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/ee/</loc>
+		<loc>./ee/</loc>
 		<lastmod>2025-08-29T14:09:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-1@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-1@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-2@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-2@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-3@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-3@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-4@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-4@200x.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/assessoria-tecnico-pedagogica/</loc>
+		<loc>./assessoria-tecnico-pedagogica/</loc>
 		<lastmod>2025-08-29T14:25:02+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-1@200x-2.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-1@200x-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/iconse.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/iconse.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/icones.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/icones.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/quem-somos/</loc>
+		<loc>./quem-somos/</loc>
 		<lastmod>2025-08-29T14:43:27+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-1@200x-3.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-1@200x-3.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-2@200x-2.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-2@200x-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-3@200x-2-1024x911.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-3@200x-2-1024x911.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/logosite-1-1024x585.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/logosite-1-1024x585.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/blog/</loc>
+		<loc>./blog/</loc>
 		<lastmod>2025-08-29T15:04:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/plataformas-de-ensino/</loc>
+		<loc>./plataformas-de-ensino/</loc>
 		<lastmod>2025-12-15T18:26:49+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-16@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-16@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-17@200x.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-17@200x.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/12/admin-ajax.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/12/admin-ajax.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/abastecimento-de-insumos/</loc>
+		<loc>./abastecimento-de-insumos/</loc>
 		<lastmod>2025-12-15T18:34:44+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-8@200x-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-8@200x-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/profissional-dedicado/</loc>
+		<loc>./profissional-dedicado/</loc>
 		<lastmod>2025-12-16T19:09:49+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/Ativo-14@200x-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-14@200x-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://amadomaker.com.br/contato/</loc>
-		<lastmod>2025-12-16T19:30:57+00:00</lastmod>
+		<loc>./contato/</loc>
+		<lastmod>2026-02-09T11:44:26+00:00</lastmod>
 		<image:image>
-			<image:loc>https://amadomaker.com.br/wp-content/uploads/2025/08/banner_contato_amado_maker-scaled.webp</image:loc>
+			<image:loc>./wp-content/uploads/2025/08/banner_contato_amado_maker-scaled.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>
