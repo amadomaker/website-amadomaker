@@ -120,19 +120,6 @@
 		<lastmod>2025-08-29T15:04:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./plataformas-de-ensino/</loc>
-		<lastmod>2025-12-15T18:26:49+00:00</lastmod>
-		<image:image>
-			<image:loc>./wp-content/uploads/2025/08/Ativo-16@200x.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>./wp-content/uploads/2025/08/Ativo-17@200x.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>./wp-content/uploads/2025/12/admin-ajax.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>./abastecimento-de-insumos/</loc>
 		<lastmod>2025-12-15T18:34:44+00:00</lastmod>
 		<image:image>
@@ -151,6 +138,19 @@
 		<lastmod>2026-02-11T18:41:55+00:00</lastmod>
 		<image:image>
 			<image:loc>./wp-content/uploads/2025/08/banner_contato_amado_maker-scaled.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./plataformas-de-ensino/</loc>
+		<lastmod>2026-03-13T19:32:01+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2026/03/Ativo-3@3x-scaled.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2025/08/Ativo-17@200x.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2025/12/admin-ajax.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
